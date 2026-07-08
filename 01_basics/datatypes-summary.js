@@ -35,3 +35,27 @@ console.log(bigNumber);
  console.log(myFun);
 
  console.log(typeof myFun);
+
+
+
+
+
+ // **************memory management**************
+ // stack memory(primitive) and heap memory(reference)
+
+ let myYoutubeName = "shivamflicks"
+
+ let anothername = myYoutubeName
+ anothername = "shivamcricketworld"
+
+ console.log(myYoutubeName);
+ console.log(anothername);
+
+
+ let userOne = {email : 'userone@example.com'}
+ let userTwo = userOne
+
+ userTwo.email = 'usertwo@example.com'
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
